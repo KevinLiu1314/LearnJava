@@ -1,5 +1,3 @@
-import java.security.AllPermission;
-
 //# Problem 5
 //# Smallest multiple
 //
@@ -86,3 +84,8 @@ public class Problem5 {
 		}
 	}
 }
+
+//----------------
+//5342931457063200
+//[2, 2, 2, 2, 2, 3, 3, 3, 5, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
+//Finish in: 3

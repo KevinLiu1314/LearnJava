@@ -58,5 +58,8 @@ public class Problem4 {
 		long diff = end - start;
 		System.out.println("Finish in: " + diff);
 	}
-
 }
+
+//--------------
+//906609
+//Finish in: 221
