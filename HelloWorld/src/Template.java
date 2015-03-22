@@ -2,12 +2,17 @@ public class Template {
 
 	public static void main(String args[]) {
 		long start = System.currentTimeMillis();
-		
-
-		
+		method1();
 		long end = System.currentTimeMillis();
 		long diff = end - start;
-		System.out.println("Finish in: " + diff);
+		System.out.println("Method1 Finish in: " + diff);
+
+		start = System.currentTimeMillis();
+		method2();
+		end = System.currentTimeMillis();
+		diff = end - start;
+		System.out.println("Method2 Finish in: " + diff);
+
 		
 		int[][] grid = {{}};
 		
@@ -18,5 +23,9 @@ public class Template {
 			System.out.println();
 		}
 	}
+	
+	public static void method1() {}
+	public static void method2() {}
+	
 }
 
