@@ -1,5 +1,3 @@
-import java.math.BigInteger;
-
 /*# Problem 20
 # Factorial digit sum
 
@@ -22,6 +20,8 @@ print sum(f_digits)
 # 648
 # [Finished in 0.2s]
 */
+
+import java.math.BigInteger;
 
 public class Problem20 {
 
